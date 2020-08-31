@@ -1,0 +1,13 @@
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.exe
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.deps.json
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.runtimeconfig.json
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.runtimeconfig.dev.json
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.dll
+F:\CODE\mp3ToSpotify\mp3ToSpotify\bin\Debug\netcoreapp3.1\mp3ToSpotify.pdb
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.csprojAssemblyReference.cache
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.AssemblyInfoInputs.cache
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.AssemblyInfo.cs
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.csproj.CoreCompileInputs.cache
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.dll
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.pdb
+F:\CODE\mp3ToSpotify\mp3ToSpotify\obj\Debug\netcoreapp3.1\mp3ToSpotify.genruntimeconfig.cache
