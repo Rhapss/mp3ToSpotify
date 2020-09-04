@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FPEvM1v09wbSEUHpT90/udz06JewXUAPYmT/kuyiR/UyKORW7YXrjZk9rp53ab0WteJc+TRn/Dm0IPWIL7pGFg==",
+  "dgSpecHash": "N+G7RzDt2tGSABu2GrqCLcsh+JRw6pA8lc24d1nW3HfSwWI+m49+XLR16rBThmKZnwyl4ANhscHGuIAck4KLpQ==",
   "success": true,
   "projectFilePath": "F:\\CODE\\mp3ToSpotify\\mp3ToSpotify\\mp3ToSpotify.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Machine\\.nuget\\packages\\taglibsharp\\2.2.0\\taglibsharp.2.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

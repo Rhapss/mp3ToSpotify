@@ -1,29 +1,35 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
-using System.Numerics;
+using System.Text;
+using TagLib;
+using File = TagLib.File;
 
 namespace mp3ToSpotify
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            char[] delimiterChars = { ' ', ',', '.', ':', '_', '0','1','2','3','4','5','6','7','8','9', '-', '\t' };
             var dir = new DirectoryInfo(@"F:\Music");
-            var allNames = new List<string>();
-            int i = 0;
-            foreach (FileInfo file in dir.GetFiles())
-            {
-                allNames.Add(Path.GetFileNameWithoutExtension(file.FullName));
-            }
-            foreach (string file in allNames)
-            {
-                allNames[i].Replace('_', ' ');
-                i++;
-                Console.WriteLine(file);
-            }
+
+            FileStream fs = null;
+            File tagFile = null;
+            fs = new FileStream(@"F:\music3.txt", FileMode.CreateNew);
+            var sw = new StreamWriter(fs, Encoding.UTF8);
+            
+            foreach (var file in dir.GetFiles("*.mp3"))
+                //Console.WriteLine(file);
+                try
+                {
+                    tagFile = File.Create(file.FullName);
+                    sw.WriteLine("{0} - {1}", string.Join(", ", tagFile.Tag.Performers), tagFile.Tag.Title);
+                }
+                catch (CorruptFileException)
+                {
+                    Console.WriteLine("Error!");
+                    throw;
+                }
+            Console.WriteLine("Finish!");
         }
     }
 }
